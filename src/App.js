@@ -13,16 +13,13 @@ class App extends React.Component {
  
   render() {
     return (
-      <div id="main">
- 
-        <button
-          onClick={() => {
-            this.setState({ count: this.state.count + 1 });
-          }}
-        >
-          Countadfadf: {this.state.count}
-        </button>
-      </div>
+      <button
+        onClick={() => {
+          this.setState({ count: this.state.count + 1 });
+        }}
+      >
+        Countadfadf: {this.state.count}
+      </button>
     );
   }
 }
