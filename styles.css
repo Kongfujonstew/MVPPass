@@ -1,0 +1,48 @@
+body, html{
+  height:100%;
+}
+body{
+  margin: 0px;
+  background-image: url('assets/heartplane.jpg');
+  background-size: cover;
+  font-size: 18px;
+}
+body, a:link, a:visited, a:active{
+  color: lightblue;
+}
+.title, .addDancerButton{
+  padding:5px 12px;
+  float:right;
+}
+.topbar{
+  height:32px;
+  background-color: #555;
+  font-family: Arial;
+}
+.title{
+  background-color: #777;
+}
+.dancer{
+  height:100px
+  width: 100px;
+  position:absolute;
+  z-index: -1000;
+}
+.big{
+  height: 300px;
+  width: 300px;
+}
+.rotate{
+  -webkit-transform: rotate(-45deg);
+}
+.sizy{
+  height: 200px;
+  width: 200px;
+  margin: 0px;
+  background-image: url('assets/sizy.jpg');
+  background-size: cover;
+}
+
+.rotate2{
+  -webkit-transform: rotate(45deg);
+}
